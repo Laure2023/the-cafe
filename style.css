@@ -145,7 +145,7 @@ img {
 
 h3 {
   position: absolute;
-  left: 40%;
+  left: 45%;
   right: 10%;
   background-color: black;
   color: #ededed;
@@ -154,7 +154,7 @@ h3 {
   width: 160px;
   height: 40px;
   padding: 5px 10px;
-  margin: 20px 10px 10px 10px;
+  margin: 30px 10px 10px 10px;
 
 }
 
@@ -162,29 +162,210 @@ h3 {
   position: absolute;
   left: 10%;
   right: 10%;
-  display: flexbox;
-  border: 3px solid darkgrey;
-  border-radius: 2px;
-  width: 950px;
-  height: 400px;
-  margin: 100px 10px 10px 10px;
+  background-image: url(/image/cafe4.jpeg);
+  background-size: cover;
+  width: 980px;
+  height: 600px;
+  margin: 130px 20px 20px 20px;
 }
 
-.navbar1 {
+.menu-eat {
   display: flex;
-  align-items: center;
+  border-right: 2px solid wheat;
+  background: #7F4834;
+  width: 450px;
+  height: 500px;
+  margin: 50px 50px 10px 50px;
+  color: antiquewhite;
+  
 }
 
-.navbar1 a {
-  background: #ededed;
+.eat {
+  font-size: 30px;
+  margin: 20px 10px 20px 190px; 
+}
+
+.menu-drink {
+  display: flex;
+  border: 2px solid none;
+  background: #7F4834;
+  width: 450px;
+  height: 500px;
+  margin: -510px 50px 10px 500px;
+  color: antiquewhite;
+}
+
+.drink {
+  font-size: 30px;
+  margin: 20px 10px 20px 170px; 
+}
+
+.item1 {
+  display: inline-block;
+  text-align: left;
+  padding: 95px 0 10px 1px;
+  margin-left: -25px;
+}
+
+.price1 {
+  text-align: right;
+  padding: 100px 450px 40px 5px;
+  font-size: 15px;
+}
+
+.item2 {
+  display: inline-block;
+  text-align: left;
+  padding: 160px 0 10px 1px;
+  margin-left: -25px;
+}
+
+.price2 {
+  text-align: right;
+  padding: 163px 450px 40px 5px;
+  font-size: 15px;
+}
+
+.item3 {
+  display: inline-block;
+  text-align: left;
+  padding: 230px 0 10px 1px;
+  margin-left: -25px;
+}
+
+.price3 {
+  text-align: right;
+  padding: 233px 450px 40px 5px;
+  font-size: 15px;
+}
+
+.item4 {
+  display: inline-block;
+  text-align: left;
+  padding: 290px 0 10px 1px;
+  margin-left: -25px;
+}
+
+.price4 {
+  text-align: right;
+  padding: 293px 450px 40px 5px;
+  font-size: 15px;
+}
+
+.item5 {
+  display: inline-block;
+  text-align: left;
+  padding: 370px 0 10px 1px;
+  margin-left: -25px;
+}
+
+.price5 {
+  text-align: right;
+  padding: 373px 450px 40px 5px;
+  font-size: 15px;
+}
+
+.Item1 {
+  display: inline-block;
+  text-align: left;
+  padding: 95px 10px 10px 490px;
+  margin-left: -25px;
+}
+
+.Price1 {
+  text-align: right;
+  padding: 100px 40px 40px 5px;
+  font-size: 15px;
+}
+
+.Item2 {
+  display: inline-block;
+  text-align: left;
+  padding: 160px 10px 10px 490px;
+  margin-left: -25px;
+}
+
+.Price2 {
+  text-align: right;
+  padding: 163px 40px 40px 5px;
+  font-size: 15px;
+}
+
+.Item3 {
+  display: inline-block;
+  text-align: left;
+  padding: 230px 10px 10px 490px;
+  margin-left: -25px;
+}
+
+.Price3 {
+  text-align: right;
+  padding: 233px 40px 40px 5px;
+  font-size: 15px;
+}
+
+.Item4 {
+  display: inline-block;
+  text-align: left;
+  padding: 300px 10px 10px 490px;
+  margin-left: -25px;
+}
+
+.Price4 {
+  text-align: right;
+  padding: 303px 40px 40px 5px;
+  font-size: 15px;
+}
+
+.Item5 {
+  display: inline-block;
+  text-align: left;
+  padding: 370px 10px 10px 490px;
+  margin-left: -25px;
+}
+
+.Price5 {
+  text-align: right;
+  padding: 373px 40px 40px 5px;
+  font-size: 15px;
+}
+
+h6 {
+  position: absolute;
+  left: 15%;
+  right: 10%;
+  background-color: black;
+  color: #ededed;
+  font-family: cursive;
+  font-weight: lighter;
+  font-size: 23px;
+  width: 260px;
+  height: 40px;
+  padding: 5px 10px;
+  margin: 800px 10px 10px 300px;
+}
+
+#address {
+  margin: 900px 40px 40px 40px;
   color: black;
-  font-size: 25px;
-  border-radius: 2px;
-  width: 472px;
-  height: 10px;
-  padding: 10px 20px 40px 200px;
-  text-decoration: none;
-
 }
 
+#img1 {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  width: 980px;
+  margin: 940px 40px 40px 40px;
+}
 
+#address1 {
+  color: black;
+  margin: 905px 40px 40px 40px;
+  padding-top: 480px;
+}
+
+#address2 {
+  color: black;
+  margin: 905px 40px 40px 40px;
+  padding-top: 550px;
+}
