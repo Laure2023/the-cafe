@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: cambria;
 }
 
 .navbar {
@@ -45,10 +44,10 @@ h1 {
   left: 9%;
   right: 10%;
   color: #ededed;
-  font-size: 60px;
+  font-size: 55px;
   width: 200px;
   height: 300px;
-  padding: 1px 600px 10px 10px;
+  padding: 10px 600px 10px 10px;
 }
 
 p {
@@ -56,6 +55,7 @@ p {
   left: 10%;
   right: 10%;
   color: #ededed;
+  font-size: 18px;
   
 }
 
@@ -64,3 +64,127 @@ p {
   height: 30px;
   padding-top: 50px;
 }
+
+.about {
+  font-family: cursive;
+}
+
+h2 {
+  position: absolute;
+  left: 40%;
+  right: 10%;
+  background-color: black;
+  color: #ededed;
+  font-weight: lighter;
+  font-size: 23px;
+  width: 250px;
+  height: 35px;
+  margin: 50px 10px 10px 10px;
+}
+
+.p2 {
+  align-items: center;
+  color: black;
+  font-family: cursive;
+  margin: 130px 10px 10px 10px;
+
+}
+
+.img1 {
+  width: 10px;
+  height: 10px;
+  padding: 300px 10px 40px 140px;
+}
+img {
+  width: 90vh;
+  height: 70vh;
+}
+
+.p3 {
+  position: absolute;
+  left: 60%;
+  right: 10%;
+  align-items: center;
+  color: darkgray;
+  font-family: cursive;
+  margin: -250px 10px 10px 10px;
+}
+
+.open {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 20px 10px 10px 10px;
+}
+
+.hours {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px 10px 10px 160px;
+}
+
+.Address {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 45px 10px 10px 10px;
+}
+
+.Address-details {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 45px 10px 10px 160px;
+}
+
+.menu {
+  font-family: cursive;
+  margin: 500px 10px 10px 10px;
+}
+
+h3 {
+  position: absolute;
+  left: 40%;
+  right: 10%;
+  background-color: black;
+  color: #ededed;
+  font-weight: lighter;
+  font-size: 23px;
+  width: 160px;
+  height: 40px;
+  padding: 5px 10px;
+  margin: 20px 10px 10px 10px;
+
+}
+
+.menu-content {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  display: flexbox;
+  border: 3px solid darkgrey;
+  border-radius: 2px;
+  width: 950px;
+  height: 400px;
+  margin: 100px 10px 10px 10px;
+}
+
+.navbar1 {
+  display: flex;
+  align-items: center;
+}
+
+.navbar1 a {
+  background: #ededed;
+  color: black;
+  font-size: 25px;
+  border-radius: 2px;
+  width: 472px;
+  height: 10px;
+  padding: 10px 20px 40px 200px;
+  text-decoration: none;
+
+}
+
+
